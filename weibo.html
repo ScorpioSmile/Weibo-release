@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="weibo.css">
+</head>
+
+<body>
+<div class="w">
+	<!-- 操作的界面 -->
+	<div class="controls">
+		<img src="tip.png" alt="">
+		<br>
+		<textarea placeholder="说点什么吧..." id="area" cols="30" rows="10" maxlength="200"></textarea>
+		<div>
+			<span class="useCount">0</span>
+			<span>/</span>
+			<span>200</span>
+			<button id="send">发布</button>
+		</div>
+	</div>
+	<!-- 微博内容列表 -->
+	<div class="contentList">
+		<ul></ul>
+	</div>
+</div>
+<script src="weibo.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
